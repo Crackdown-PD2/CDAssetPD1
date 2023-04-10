@@ -1,7 +1,4 @@
 <mod name="Crackdown Assets - Classics Faction" min_lib_ver="4.3">
-	<AssetUpdates id="Crackdown-PD2/Crackdown-Assets-Faction-Classics" branch="main" provider="github" version="1.0.0" release="true" important="false" dont_delete="false"/>
+	<AssetUpdates id="Crackdown-PD2/Crackdown-Assets-Faction-Classics" branch="main" provider="github" version="1.0.0" release="true" important="false" dont_delete="false">
 	<Package id="packages/deathvoxclassics" file="crackdownclassicassets.xml"/>
-	<Hooks name="cd_faction_classics_hooks" directory="hooks">
-		<hook pre="true" file="entry.lua" source_file="lib/entry"/>
-	</Hooks>
 </mod>
